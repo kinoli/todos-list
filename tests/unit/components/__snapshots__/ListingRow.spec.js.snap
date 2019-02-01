@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListingRow.vue renders correctly 1`] = `
+<section class="listing-row">
+  <v-list-tile-stub activeclass="primary--text" ripple="" class="row-container">
+    <v-list-tile-content-stub>
+      <v-list-tile-title-stub class="row-title">My Title</v-list-tile-title-stub>
+      <v-list-tile-sub-title-stub class="text--primary">Acme Inc.</v-list-tile-sub-title-stub>
+      <v-list-tile-sub-title-stub class="row-name">Jane Doe</v-list-tile-sub-title-stub>
+    </v-list-tile-content-stub>
+    <v-list-tile-action-stub>
+      <v-list-tile-action-text-stub class="row-username">jdoe</v-list-tile-action-text-stub>
+      <v-icon-stub color="grey lighten-1" class="row-star">
+        star_border
+      </v-icon-stub>
+    </v-list-tile-action-stub>
+  </v-list-tile-stub>
+</section>
+`;

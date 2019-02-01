@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoInfo.vue renders correctly 1`] = `
+<section class="todo-info">
+  <v-layout-stub tag="div" row="">
+    <v-flex-stub tag="div" xs12="" sm6="" offset-sm3="">
+      <v-card-stub>
+        <v-toolbar-stub flat="true" scrollthreshold="300" tabs="true" dark="" color="teal">
+          <v-btn-stub activeclass="v-btn--active" icon="true" tag="button" type="button" id="btn-back">
+            <v-icon-stub>chevron_left</v-icon-stub>
+          </v-btn-stub>
+          <v-toolbar-title-stub></v-toolbar-title-stub>
+          <v-spacer-stub></v-spacer-stub>
+        </v-toolbar-stub>
+        <!---->
+      </v-card-stub>
+    </v-flex-stub>
+  </v-layout-stub>
+</section>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listing.vue renders correctly 1`] = `
+<section
+  class="listing"
+>
+  <v-layout-stub
+    row=""
+    tag="div"
+  >
+    <v-flex-stub
+      offset-sm3=""
+      sm6=""
+      tag="div"
+      xs12=""
+    >
+      <v-card-stub>
+        <v-toolbar-stub
+          color="teal"
+          dark=""
+          scrollthreshold="300"
+        >
+          <v-toolbar-title-stub
+            class="text-xs-center"
+          >
+            Todos
+          </v-toolbar-title-stub>
+           
+          <v-spacer-stub />
+           
+          <v-switch-stub
+            class="completed-switch mr-4 mt-2"
+            color="yellow"
+            id="completed-switch"
+            label="Completed?"
+          />
+           
+          <v-text-field-stub
+            class="mt-2"
+            flat=""
+            id="search-input"
+            label="Filter"
+            prepend-inner-icon="search"
+            solo-inverted=""
+          />
+        </v-toolbar-stub>
+         
+        <v-list-stub
+          twoline="true"
+        >
+          <div>
+            <listingrow-stub
+              class="l"
+              todo="[object Object]"
+            />
+             
+            <v-divider-stub />
+          </div>
+          <div>
+            <listingrow-stub
+              class="l"
+              todo="[object Object]"
+            />
+             
+            <v-divider-stub />
+          </div>
+          <div>
+            <listingrow-stub
+              class="l"
+              todo="[object Object]"
+            />
+             
+            <!---->
+          </div>
+        </v-list-stub>
+      </v-card-stub>
+    </v-flex-stub>
+  </v-layout-stub>
+</section>
+`;
