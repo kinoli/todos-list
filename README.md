@@ -1,4 +1,4 @@
-# crypto-list
+# Vue.js API listing with preserved state
 
 ## Project setup
 ```
@@ -7,28 +7,29 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+yarn build
 ```
 
 ### Lints and fixes files
 ```
-yarn run lint
+yarn lint
 ```
 
 ### Run your unit tests
 ```
-yarn run test:unit
+yarn test
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Run in Docker
+```
+docker build -t kinoli/todos-list .
+docker run -it -p 8080:8080 --rm --name todos-list kinoli/todos-list
+```
+
+### Credits
+Built by Jesse Knowles
